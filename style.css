@@ -1,0 +1,69 @@
+body {
+  background-image: url("Images/sky-blue-background-1537733271HQq.jpg");
+}
+
+#bloc_page {
+  margin: auto;
+  width: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: url("Images/trait-separation.pnj") repeat-x bottom;
+}
+header nav li {
+  margin-right: 15px;
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 1em;
+  text-decoration: none;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+}
+header .nav2 {
+  text-align: center;
+}
+header .nav2 h1 {
+  font-size: 4em;
+}
+header .nav2 p {
+  font-size: larger;
+}
+header .nav2 .nav3 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer #email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer #reseaux {
+  margin-right: 10px;
+}
+footer #partenaires {
+  display: flex;
+  flex-direction: column;
+}
+footer #partenaires ul {
+  list-style: none;
+  text-decoration: none;
+}
+footer #partenaires a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+}
+
+/*# sourceMappingURL=style.css.map */

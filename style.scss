@@ -1,0 +1,81 @@
+body {
+    background-image: url("Images/sky-blue-background-1537733271HQq.jpg");
+    
+    
+  }
+
+#bloc_page{
+    margin: auto;
+    width: auto;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   background: url("Images/trait-separation.pnj") repeat-x bottom;
+   
+    nav li
+    {
+       
+        margin-right: 15px;
+    }
+   
+     nav ul {
+    
+    list-style-type: none;
+    display: flex;
+  
+    margin: 1em;
+    text-decoration: none;
+    } 
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.5em;
+    }
+    .nav2{
+        text-align: center;
+     h1{
+        font-size: 4em;
+       
+    } 
+    p{
+            font-size: larger;
+        }
+
+    .nav3{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    
+    #email{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
+    #reseaux{
+       margin-right: 10px;
+    }
+
+    #partenaires{
+        display: flex;
+        flex-direction: column;
+
+        ul{
+            list-style: none;
+            text-decoration: none;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5em;
+        }
+    }
+}
